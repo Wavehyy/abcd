@@ -1,62 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body{
+    margin: 0;
+}
 h1 {
-    color: rgb(128, 0, 107);
-    font-size: 5rem;
+    color: rgb(243, 42, 7);
+    font-size: 20px;
+    margin: 0;
+    padding-top: 40px;
   }
- .workshop{
-     width: 1000px;
-    height:1000px;
-    background-color: red;
-    border-radius: 20px;
-    opacity: 0.7;
-    color: aquamarine;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: 'Noto Sans JP', sans-serif;
-    background-image: url('/ing/SAM_2602.JPG');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: cover;
-    padding-left: 100px;
-    margin: 100px 100px 100px 100px;
-
+  h2{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+    margin: 150px;
+    padding: 20px;
   }
-  .item {
-    border: 1px solid #aaa;
-    padding: 1rem;
-  }
-  
-  .selected {
-    background-color: #aaa;
-  }
-  #main-menu{
-      border:solid red 1px;
-      padding:10px;
-      width: 500px;
-
-  }
-#main-menu div:hover{
-    color: burlywood;
-    cursor: pointer;
-}  
   .container{
-      width: 400px; 
-      height: 200px;
-      display:flexbox;
-      flex-direction: row-reverse;
-      justify-content: center;
-      background-color:salmon;
-      width: 1000px;
-      height: 1000px;
-      
-    }
-    .container button {
-        font-size: 40px;
-        font-weight: bold;
-        font-family: 'Noto Sans JP', sans-serif;
-        
-    }
-    .container button:hover{
-        background-color: slateblue;
-        color: rgb(255, 255, 255);
-    }
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      background-image: url(../img/112.jpg);
+      background-size: cover;
+  } 
+    
+
+  #main-menu{
+      width: 50px;
+      height: 50px;
+      background-color: rgba(255, 255, 255, 0.219);
+      border-radius: 100px;
+      border:3px solid rgb(255, 255, 255);
+      position: relative;
+    left: 700px;
+     font-size: 10px;
+    font-family: 'Staatliches', cursive;
+    
+      }
+     h3{
+         color: seashell;
+        position: relative;
+        left: 660px;
+     }
+     h3 :hover{
+         background: rgb(13, 23, 32);
+     }
+     
+  
+  
+#mask {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(141, 141, 141, 0.6);
+}
+
+  
